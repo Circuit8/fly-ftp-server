@@ -17,9 +17,9 @@ kill_timeout = "5s"
   TINI_SUBREAPER = "true"
   ADDRESS = "169.155.63.117"
 
-# [[mounts]]
-#   source = "ftp_data"
-#   destination = "/data"
+[[mounts]]
+  source = "ftp_data"
+  destination = "/data"
 
 [[services]]
   protocol = "tcp"
